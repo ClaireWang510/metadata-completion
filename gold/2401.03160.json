@@ -1,0 +1,102 @@
+{
+  "arxiv_id": "2401.03160",
+  "title": "Human as AI Mentor: Enhanced Human-in-the-loop Reinforcement Learning for Safe and Efficient Autonomous Driving",
+  "venue_gold": {
+    "status": "published",
+    "name": "Communications in Transportation Research",
+    "type": "journal",
+    "year": 2024,
+    "doi": "10.1016/j.commtr.2024.100127",
+    "evidence_url": "https://ui.adsabs.harvard.edu/abs/2024arXiv240103160H/abstract",
+    "notes": ""
+  },
+  "authors_gold": [
+    {
+      "index": 0,
+      "author_name": "Zilin Huang",
+      "affiliations": [
+        {
+          "name": "Department of Civil and Environmental Engineering, University of Wisconsin-Madison"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 1,
+      "author_name": "Zihao Sheng",
+      "affiliations": [
+        {
+          "name": "Department of Civil and Environmental Engineering, University of Wisconsin-Madison"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 2,
+      "author_name": "Chengyuan Ma",
+      "affiliations": [
+        {
+          "name": "Department of Civil and Environmental Engineering, University of Wisconsin-Madison"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 3,
+      "author_name": "Sikai Chen",
+      "affiliations": [
+        {
+          "name": "Department of Civil and Environmental Engineering, University of Wisconsin-Madison"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    }
+  ],
+  "authors_list_fix": null,
+  "resource_links_gold": {
+    "original": [
+      {
+        "index": 0,
+        "url": "https://zilin-huang.github.io/HAIM-DRL-website/",
+        "link_class": "official_project",
+        "notes": ""
+      },
+      {
+        "index": 1,
+        "url": "https://www.youtube.com/playlist?list=PL-EmC8vF-RSH2j09uxZeyiVV_ePuA3Eud",
+        "link_class": "other",
+        "notes": "Experimental demo videos"
+      },
+      {
+        "index": 2,
+        "url": "https://github.com/zilin-huang/HAIM-DRL",
+        "link_class": "official_code",
+        "notes": ""
+      },
+      {
+        "index": 3,
+        "url": "https://github.com/zilin-huang/HAIM-DRL/releases/tag/v0.0.0",
+        "link_class": "official_dataset",
+        "notes": "Thehigh-quality demonstration dataset collected by the huma nexpert in this study is available at this url."
+      },
+      {
+        "index": 4,
+        "url": "https://sky-lab-uw.github.io/",
+        "link_class": "other",
+        "notes": ""
+      }
+    ],
+    "added": []
+  },
+  "annotator_meta": {
+    "annotator_id": "A01",
+    "annotated_at": "2026-07-13T08:57:32.465Z",
+    "minutes_spent": 6.1,
+    "difficulty": "medium",
+    "confidence": 0.9
+  }
+}

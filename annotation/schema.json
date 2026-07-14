@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MetadataCompletionGoldSchema",
+  "description": "Human-annotated gold labels for the three target fields: venue, per-author affiliations, and resource-link classification. One JSON object per arXiv paper.",
+  "type": "object",
+  "required": ["arxiv_id", "title", "venue_gold", "authors_gold", "resource_links_gold", "annotator_meta"],
+  "properties": {
+    "arxiv_id": {
+      "type": "string",
+      "description": "arXiv identifier, e.g. '2401.00663'."
+    },
+    "title": {
+      "type": "string",
+      "description": "Paper title (copied from original metadata, used for cross-checking)."
+    },
+
+    "venue_gold": {
+      "type": "object",
+      "description": "Ground-truth publication venue as of the annotation date.",
+      "required": ["status", "name", "type"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["submitted", "published", "accepted", "preprint", "unknown"],
+          "description": "'submitted' = submitted/under review only; 'published' = officially in proceedings/journal; 'accepted' = confirmed accepted but not yet in proceedings; 'preprint' = only on arXiv; 'unknown' = cannot determine."
+        },
+        "name": {
+          "type": ["string", "null"],
+          "description": "Canonical venue name. Use DBLP short form when possible, e.g. 'ICCV 2024', 'ACL 2024 Findings', 'CVPR 2024 Workshops', 'IEEE TPAMI'. NULL only when status='unknown' or 'preprint'."
+        },
+        "type": {
+          "type": "string",
+          "enum": ["conference", "journal", "workshop", "preprint", "unknown"]
+        },
+        "year": {
+          "type": ["integer", "null"],
+          "description": "Publication / expected publication year."
+        },
+        "doi": {
+          "type": ["string", "null"],
+          "description": "Publisher DOI (NOT the arXiv DOI). Optional."
+        },
+        "evidence_url": {
+          "type": ["string", "null"],
+          "description": "Where you verified the venue: DBLP entry, publisher page, official proceedings page, etc."
+        },
+        "notes": { "type": "string", "default": "" }
+      }
+    },
+
+    "authors_gold": {
+      "type": "array",
+      "description": "One entry per author, in the SAME ORDER as the original metadata. If the original author list is wrong (missing / merged / split), also fill 'authors_list_fix'.",
+      "items": {
+        "type": "object",
+        "required": ["index", "author_name", "affiliations"],
+        "properties": {
+          "index": { "type": "integer", "minimum": 0 },
+          "author_name": { "type": "string" },
+          "affiliations": {
+            "type": "array",
+            "description": "Author's affiliations as listed on the paper's first page (English canonical name, no department/lab, no address). Multi-affiliation kept in first-page order.",
+            "items": {
+              "type": "object",
+              "required": ["name"],
+              "properties": {
+                "name": { "type": "string" },
+                "raw_name": { "type": ["string", "null"] }
+              }
+            }
+          },
+          "evidence": {
+            "type": "string",
+            "enum": ["pdf_first_page", "openalex", "dblp", "author_homepage", "other"],
+            "description": "Primary source you used to confirm the affiliation."
+          },
+          "notes": { "type": "string", "default": "" }
+        }
+      }
+    },
+
+    "authors_list_fix": {
+      "type": ["array", "null"],
+      "description": "Fill this ONLY when the original metadata's author list itself is wrong (missing / merged / duplicated). Otherwise leave null.",
+      "items": { "type": "string" }
+    },
+
+    "resource_links_gold": {
+      "type": "object",
+      "required": ["original", "added"],
+      "properties": {
+        "original": {
+          "type": "array",
+          "description": "Labels for each URL that already exists in the original metadata's resource_links, in the SAME ORDER.",
+          "items": {
+            "type": "object",
+            "required": ["index", "url", "link_class"],
+            "properties": {
+              "index": { "type": "integer", "minimum": 0 },
+              "url": { "type": "string" },
+              "link_class": {
+                "type": "string",
+                "enum": ["official_code", "official_dataset", "official_project",
+                          "cited_external", "template_boilerplate", "other"]
+              },
+              "notes": { "type": "string", "default": "" }
+            }
+          }
+        },
+        "added": {
+          "type": "array",
+          "description": "URLs mentioned in the paper (typically the PDF or LaTeX) that were MISSED by the regex extractor but should have been captured as official_* resources. Include an evidence quote.",
+          "items": {
+            "type": "object",
+            "required": ["url", "link_class", "evidence_quote"],
+            "properties": {
+              "url": { "type": "string" },
+              "link_class": {
+                "type": "string",
+                "enum": ["official_code", "official_dataset", "official_project"]
+              },
+              "evidence_quote": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "annotator_meta": {
+      "type": "object",
+      "required": ["annotator_id", "annotated_at", "minutes_spent"],
+      "properties": {
+        "annotator_id": { "type": "string" },
+        "annotated_at": { "type": "string", "format": "date-time" },
+        "minutes_spent": { "type": "number", "minimum": 0 },
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"],
+          "description": "Subjective difficulty of this paper's annotation."
+        },
+        "confidence": {
+          "type": "number", "minimum": 0, "maximum": 1,
+          "description": "Annotator's self-reported confidence."
+        }
+      }
+    }
+  }
+}

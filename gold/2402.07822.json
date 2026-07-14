@@ -1,0 +1,96 @@
+{
+  "arxiv_id": "2402.07822",
+  "title": "Understanding Fitness Landscapes in Morpho-Evolution via Local Optima Networks",
+  "venue_gold": {
+    "status": "published",
+    "name": "GECCO 2024",
+    "type": "unknown",
+    "year": 2024,
+    "doi": "10.1145/3638529.3654059",
+    "evidence_url": "https://dl.acm.org/doi/10.1145/3638529.3654059",
+    "notes": ""
+  },
+  "authors_gold": [
+    {
+      "index": 0,
+      "author_name": "Sarah L. Thomson",
+      "affiliations": [
+        {
+          "name": "Edinburgh Napier University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 1,
+      "author_name": "Léni Le Goff",
+      "affiliations": [
+        {
+          "name": "Edinburgh Napier University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 2,
+      "author_name": "Emma Hart",
+      "affiliations": [
+        {
+          "name": "Edinburgh Napier University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 3,
+      "author_name": "Edgar Buchanan",
+      "affiliations": [
+        {
+          "name": "University of York"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    }
+  ],
+  "authors_list_fix": null,
+  "resource_links_gold": {
+    "original": [
+      {
+        "index": 0,
+        "url": "https://github.com/openai/gym/blob/master/gym/envs/box2d/bipedal_walker.py",
+        "link_class": "cited_external",
+        "notes": ""
+      },
+      {
+        "index": 1,
+        "url": "https://neat-python.readthedocs.io/en/latest/",
+        "link_class": "cited_external",
+        "notes": ""
+      },
+      {
+        "index": 2,
+        "url": "https://github.com/FrankVeenstra/gym_rem2D/blob/master/ModularER_2D/NeuralNetwork/config",
+        "link_class": "cited_external",
+        "notes": ""
+      },
+      {
+        "index": 3,
+        "url": "https://github.com/FrankVeenstra/gym_rem2D",
+        "link_class": "cited_external",
+        "notes": ""
+      }
+    ],
+    "added": []
+  },
+  "annotator_meta": {
+    "annotator_id": "A01",
+    "annotated_at": "2026-07-14T02:37:36.292Z",
+    "minutes_spent": 3,
+    "difficulty": "easy",
+    "confidence": 1
+  }
+}

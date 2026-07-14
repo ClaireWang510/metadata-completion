@@ -1,0 +1,134 @@
+{
+  "arxiv_id": "2402.01806",
+  "title": "HQA-Attack: Toward High Quality Black-Box Hard-Label Adversarial Attack on Text",
+  "venue_gold": {
+    "status": "published",
+    "name": "NeurIPS 2023",
+    "type": "conference",
+    "year": 2023,
+    "doi": "10.52202/075280-2235",
+    "evidence_url": "https://www.proceedings.com/075280-2235.html",
+    "notes": ""
+  },
+  "authors_gold": [
+    {
+      "index": 0,
+      "author_name": "Han Liu",
+      "affiliations": [
+        {
+          "name": "Dalian University of Technology"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 1,
+      "author_name": "Zhi Xu",
+      "affiliations": [
+        {
+          "name": "Dalian University of Technology"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 2,
+      "author_name": "Xiaotong Zhang",
+      "affiliations": [
+        {
+          "name": "Dalian University of Technology"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 3,
+      "author_name": "Feng Zhang",
+      "affiliations": [
+        {
+          "name": "Peking University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 4,
+      "author_name": "Fenglong Ma",
+      "affiliations": [
+        {
+          "name": "The Pennsylvania State University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 5,
+      "author_name": "Hongyang Chen",
+      "affiliations": [
+        {
+          "name": "Zhejiang Lab"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 6,
+      "author_name": "Hong Yu",
+      "affiliations": [
+        {
+          "name": "Dalian University of Technology"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 7,
+      "author_name": "Xianchao Zhang",
+      "affiliations": [
+        {
+          "name": "Dalian University of Technology"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    }
+  ],
+  "authors_list_fix": null,
+  "resource_links_gold": {
+    "original": [
+      {
+        "index": 0,
+        "url": "https://github.com/HQA-Attack/HQAAttack-demo",
+        "link_class": "official_code",
+        "notes": ""
+      },
+      {
+        "index": 1,
+        "url": "https://cloud.google.com/natural-language)",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 2,
+        "url": "https://ai.aliyun.com/nlp)",
+        "link_class": "other",
+        "notes": ""
+      }
+    ],
+    "added": []
+  },
+  "annotator_meta": {
+    "annotator_id": "A01",
+    "annotated_at": "2026-07-12T10:19:08.117Z",
+    "minutes_spent": 9.2,
+    "difficulty": "medium",
+    "confidence": 0.8
+  }
+}

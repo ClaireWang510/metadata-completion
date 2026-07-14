@@ -1,0 +1,162 @@
+{
+  "arxiv_id": "2401.03315",
+  "title": "Malla: Demystifying Real-world Large Language Model Integrated Malicious Services",
+  "venue_gold": {
+    "status": "published",
+    "name": "USENIX Security 2024",
+    "type": "conference",
+    "year": 2024,
+    "doi": "10.5555/3698900.3699163",
+    "evidence_url": "https://dl.acm.org/doi/10.5555/3698900.3699163",
+    "notes": ""
+  },
+  "authors_gold": [
+    {
+      "index": 0,
+      "author_name": "Zilong Lin",
+      "affiliations": [
+        {
+          "name": "Indiana University Bloomington"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 1,
+      "author_name": "Jian Cui",
+      "affiliations": [
+        {
+          "name": "Indiana University Bloomington"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 2,
+      "author_name": "Xiaojing Liao",
+      "affiliations": [
+        {
+          "name": "Indiana University Bloomington"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 3,
+      "author_name": "XiaoFeng Wang",
+      "affiliations": [
+        {
+          "name": "Indiana University Bloomington"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    }
+  ],
+  "authors_list_fix": null,
+  "resource_links_gold": {
+    "original": [
+      {
+        "index": 0,
+        "url": "https://github.com/idllresearch/malicious-gpt",
+        "link_class": "official_code",
+        "notes": ""
+      },
+      {
+        "index": 1,
+        "url": "https://docs.anthropic.com/claude/reference/getting-started-with-the-api",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 2,
+        "url": "https://developers.generativeai.google/api",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 3,
+        "url": "https://badgpt.pro/",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 4,
+        "url": "https://blackhatgpt.netlify.app/",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 5,
+        "url": "https://xxx-gpt.mysellix.io/",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 6,
+        "url": "https://mainnet.demo.btcpayserver.org/apps/CQqsBk7TGXveh9R9K3Z5KTDqVvE/pos",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 7,
+        "url": "https://mainnet.demo.btcpayserver.org/apps/2tUy9NHwGq2zWSrg4asqs8be19q1/pos",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 8,
+        "url": "https://cashflowcartel.club/",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 9,
+        "url": "https://www.freedomgpt.com/",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 10,
+        "url": "https://wormgpt.co/access-payment/",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 11,
+        "url": "https://wormGPT.live",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 12,
+        "url": "https://www.cvedetails.com/cve/CVE-Year-Num/",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 13,
+        "url": "https://flow-docs-page.vercel.app/2features/2templates/1what",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 14,
+        "url": "https://platform.openai.com/docs/api-reference/introduction",
+        "link_class": "other",
+        "notes": ""
+      }
+    ],
+    "added": []
+  },
+  "annotator_meta": {
+    "annotator_id": "A01",
+    "annotated_at": "2026-07-13T09:04:14.720Z",
+    "minutes_spent": 6.7,
+    "difficulty": "hard",
+    "confidence": 0.85
+  }
+}

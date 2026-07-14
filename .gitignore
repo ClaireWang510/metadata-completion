@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*/__pycache__/
+data/
+out/
+tests/
+.agents/
+.pdf_cache/
+tmp/

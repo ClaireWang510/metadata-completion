@@ -1,0 +1,150 @@
+{
+  "arxiv_id": "2401.11120",
+  "title": "Enhancing Large Language Models for Clinical Decision Support by Incorporating Clinical Practice Guidelines",
+  "venue_gold": {
+    "status": "published",
+    "name": "ICHI 2024",
+    "type": "conference",
+    "year": 2024,
+    "doi": "10.1109/ICHI61247.2024.00111",
+    "evidence_url": "https://ieeexplore.ieee.org/document/10628577",
+    "notes": ""
+  },
+  "authors_gold": [
+    {
+      "index": 0,
+      "author_name": "David Oniani",
+      "affiliations": [
+        {
+          "name": "Department of Health Information Management, University of Pittsburgh"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 1,
+      "author_name": "Xizhi Wu",
+      "affiliations": [
+        {
+          "name": "Department of Health Information Management, University of Pittsburgh"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 2,
+      "author_name": "S. Visweswaran",
+      "affiliations": [
+        {
+          "name": "Department of Biomedical Informatics, University of Pittsburgh"
+        },
+        {
+          "name": "Intelligent Systems Program, University of Pittsburgh"
+        },
+        {
+          "name": "Clinical and Translational Science Institute, University of Pittsburgh"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 3,
+      "author_name": "S. Kapoor",
+      "affiliations": [
+        {
+          "name": "Department of Critical Care Medicine, University of Pittsburgh Medical Center"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 4,
+      "author_name": "Shravan Kooragayalu",
+      "affiliations": [
+        {
+          "name": "6Department of Pulmonary Medicine, University of Pittsburgh Medical Center Western Maryland"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 5,
+      "author_name": "Katelyn Polanska",
+      "affiliations": [
+        {
+          "name": "Department of Health Information Management, University of Pittsburgh"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 6,
+      "author_name": "Yanshan Wang",
+      "affiliations": [
+        {
+          "name": "Department of Health Information Management, University of Pittsburgh"
+        },
+        {
+          "name": "Department of Biomedical Informatics, University of Pittsburgh"
+        },
+        {
+          "name": "Intelligent Systems Program, University of Pittsburgh"
+        },
+        {
+          "name": "Clinical and Translational Science Institute, University of Pittsburgh"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    }
+  ],
+  "authors_list_fix": null,
+  "resource_links_gold": {
+    "original": [
+      {
+        "index": 0,
+        "url": "https://networkx.org/",
+        "link_class": "official_project",
+        "notes": ""
+      },
+      {
+        "index": 1,
+        "url": "https://community.openai.com/t/seed-param-and-reproducible-output-do-not-work/487245",
+        "link_class": "cited_external",
+        "notes": ""
+      },
+      {
+        "index": 2,
+        "url": "https://github.com/facebookresearch/llama",
+        "link_class": "cited_external",
+        "notes": ""
+      },
+      {
+        "index": 3,
+        "url": "https://github.com/conceptofmind/PaLM",
+        "link_class": "cited_external",
+        "notes": ""
+      },
+      {
+        "index": 4,
+        "url": "https://ai.google.dev/models/palm",
+        "link_class": "cited_external",
+        "notes": ""
+      }
+    ],
+    "added": []
+  },
+  "annotator_meta": {
+    "annotator_id": "A01",
+    "annotated_at": "2026-07-14T02:09:18.328Z",
+    "minutes_spent": 16.2,
+    "difficulty": "easy",
+    "confidence": 0.9
+  }
+}
