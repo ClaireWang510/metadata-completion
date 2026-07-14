@@ -19,6 +19,8 @@ VLM_MODEL       = os.getenv("VLM_MODEL",       "gpt-4o-mini")   # for pdf agent 
 CONF_THRESHOLD  = float(os.getenv("CONF_THRESHOLD", "0.75"))
 MAX_ITERATIONS  = int(os.getenv("MAX_ITERATIONS", "3"))
 MAX_TOTAL_TOKENS_PER_PAPER = int(os.getenv("MAX_TOTAL_TOKENS_PER_PAPER", "60000"))
+LINK_BATCH_SIZE = max(1, int(os.getenv("LINK_BATCH_SIZE", "8")))
+VERIFIER_BATCH_SIZE = max(1, int(os.getenv("VERIFIER_BATCH_SIZE", "12")))
 
 # ---- APIs ----
 OPENALEX_BASE   = "https://api.openalex.org"
@@ -30,6 +32,8 @@ IEEE_API_KEY    = os.getenv("IEEE_API_KEY", "")
 
 HTTP_TIMEOUT    = 20.0
 HTTP_RETRIES    = 3
+LLM_TIMEOUT     = float(os.getenv("LLM_TIMEOUT", "120"))
+LLM_RETRIES     = int(os.getenv("LLM_RETRIES", "1"))
 
 # ---- feature switches ----
 ENABLE_PDF_AGENT = os.getenv("ENABLE_PDF_AGENT", "0") == "1"   # off by default (省 token)

@@ -1,0 +1,89 @@
+{
+  "arxiv_id": "2402.09782",
+  "title": "MC-DBN: A Deep Belief Network-Based Model for Modality Completion",
+  "venue_gold": {
+    "status": "published",
+    "name": "ICPR 2024",
+    "type": "conference",
+    "year": 2024,
+    "doi": "10.1007/978-3-031-78183-4_30",
+    "evidence_url": "https://link.springer.com/chapter/10.1007/978-3-031-78183-4_30#citeas",
+    "notes": ""
+  },
+  "authors_gold": [
+    {
+      "index": 0,
+      "author_name": "Zihong Luo",
+      "affiliations": [
+        {
+          "name": "Xi’an Jiaotong-Liverpool University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 1,
+      "author_name": "Zheng Tao",
+      "affiliations": [
+        {
+          "name": "Xi’an Jiaotong-Liverpool University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 2,
+      "author_name": "Yuxuan Huang",
+      "affiliations": [
+        {
+          "name": "Xi’an Jiaotong-Liverpool University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 3,
+      "author_name": "Kexin He",
+      "affiliations": [
+        {
+          "name": "Kean University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 4,
+      "author_name": "Chengzhi Liu",
+      "affiliations": [
+        {
+          "name": "Xi’an Jiaotong-Liverpool University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    }
+  ],
+  "authors_list_fix": null,
+  "resource_links_gold": {
+    "original": [
+      {
+        "index": 0,
+        "url": "https://github.com/logan-0623/DBN-generate/",
+        "link_class": "official_code",
+        "notes": ""
+      }
+    ],
+    "added": []
+  },
+  "annotator_meta": {
+    "annotator_id": "A01",
+    "annotated_at": "2026-07-14T09:25:11.572Z",
+    "minutes_spent": 8.5,
+    "difficulty": "easy",
+    "confidence": 1
+  }
+}

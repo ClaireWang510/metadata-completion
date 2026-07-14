@@ -1,0 +1,182 @@
+{
+  "arxiv_id": "2403.04309",
+  "title": "AO-DETR: Anti-Overlapping DETR for X-Ray Prohibited Items Detection",
+  "venue_gold": {
+    "status": "published",
+    "name": "IEEE Transactions on Neural Networks and Learning Systems",
+    "type": "journal",
+    "year": 2025,
+    "doi": "10.1109/TNNLS.2024.3487833",
+    "evidence_url": "https://ieeexplore.ieee.org/document/10746383",
+    "notes": ""
+  },
+  "authors_gold": [
+    {
+      "index": 0,
+      "author_name": "Mingyuan Li",
+      "affiliations": [
+        {
+          "name": "College of Information Science and Engineering, Northeastern University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 1,
+      "author_name": "Tong Jia",
+      "affiliations": [
+        {
+          "name": "College of Information Science and Engineering, Northeastern University"
+        },
+        {
+          "name": "Key Laboratory of Data Analytics and Optimization for Smart Industry, Ministry of Education, Northeastern University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 2,
+      "author_name": "Hao Wang",
+      "affiliations": [
+        {
+          "name": "College of Information Science and Engineering, Northeastern University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 3,
+      "author_name": "Bowen Ma",
+      "affiliations": [
+        {
+          "name": "College of Information Science and Engineering, Northeastern University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 4,
+      "author_name": "Hui Lu",
+      "affiliations": [
+        {
+          "name": "College of Information Science and Engineering, Northeastern University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 5,
+      "author_name": "Shuyang Lin",
+      "affiliations": [
+        {
+          "name": "College of Information Science and Engineering, Northeastern University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 6,
+      "author_name": "Da Cai",
+      "affiliations": [
+        {
+          "name": "College of Information Science and Engineering, Northeastern University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 7,
+      "author_name": "Dongyue Chen",
+      "affiliations": [
+        {
+          "name": "College of Information Science and Engineering, Northeastern University"
+        },
+        {
+          "name": "Foshan Graduate School of Innovation, Northeastern University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    }
+  ],
+  "authors_list_fix": null,
+  "resource_links_gold": {
+    "original": [
+      {
+        "index": 0,
+        "url": "http://tug.ctan.org/info/lshort/english/lshort.pdf",
+        "link_class": "template_boilerplate",
+        "notes": ""
+      },
+      {
+        "index": 1,
+        "url": "http://www.latex-community.org/",
+        "link_class": "template_boilerplate",
+        "notes": ""
+      },
+      {
+        "index": 2,
+        "url": "https://tex.stackexchange.com/",
+        "link_class": "template_boilerplate",
+        "notes": ""
+      },
+      {
+        "index": 3,
+        "url": "http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Math-Typesetting-Guide-for-LaTeX-Users.pdf",
+        "link_class": "template_boilerplate",
+        "notes": ""
+      },
+      {
+        "index": 4,
+        "url": "https://github.com/Limingyuan001/AO-DETR-test",
+        "link_class": "official_code",
+        "notes": ""
+      },
+      {
+        "index": 5,
+        "url": "https://github.com/Limingyuan001/AO-DETR",
+        "link_class": "official_code",
+        "notes": ""
+      },
+      {
+        "index": 6,
+        "url": "http://mirror.ctan.org/biblio/bibtex/contrib/doc/",
+        "link_class": "template_boilerplate",
+        "notes": ""
+      },
+      {
+        "index": 7,
+        "url": "http://www.michaelshell.org/tex/ieeetran/bibtex/",
+        "link_class": "template_boilerplate",
+        "notes": ""
+      },
+      {
+        "index": 8,
+        "url": "https://www.ams.org/arc/styleguide/mit-2.pdf",
+        "link_class": "template_boilerplate",
+        "notes": ""
+      },
+      {
+        "index": 9,
+        "url": "http://www.ams.org/arc/styleguide/index.html",
+        "link_class": "template_boilerplate",
+        "notes": ""
+      }
+    ],
+    "added": []
+  },
+  "annotator_meta": {
+    "annotator_id": "A01",
+    "annotated_at": "2026-07-14T12:43:18.266Z",
+    "minutes_spent": 7.9,
+    "difficulty": "medium",
+    "confidence": 0.85
+  }
+}

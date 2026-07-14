@@ -1,0 +1,74 @@
+{
+  "arxiv_id": "2403.00986",
+  "title": "Merging Text Transformer Models from Different Initializations",
+  "venue_gold": {
+    "status": "published",
+    "name": "Transactions on Machine Learning Research",
+    "type": "journal",
+    "year": 2024,
+    "doi": null,
+    "evidence_url": "https://arxiv.org/abs/2403.00986",
+    "notes": ""
+  },
+  "authors_gold": [
+    {
+      "index": 0,
+      "author_name": "Neha Verma",
+      "affiliations": [
+        {
+          "name": "Center for Language and Speech Processing, Johns Hopkins University"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    },
+    {
+      "index": 1,
+      "author_name": "Maha Elbayad",
+      "affiliations": [
+        {
+          "name": "Meta"
+        }
+      ],
+      "evidence": "pdf_first_page",
+      "notes": ""
+    }
+  ],
+  "authors_list_fix": null,
+  "resource_links_gold": {
+    "original": [
+      {
+        "index": 0,
+        "url": "https://openreview.net/forum?id=nWnYSLncXa",
+        "link_class": "other",
+        "notes": ""
+      },
+      {
+        "index": 1,
+        "url": "https://github.com/nverma1/merging-text-transformers",
+        "link_class": "official_code",
+        "notes": ""
+      },
+      {
+        "index": 2,
+        "url": "https://huggingface.co/datasets/wikitext",
+        "link_class": "cited_external",
+        "notes": ""
+      },
+      {
+        "index": 3,
+        "url": "https://github.com/goodfeli/dlbook_notation",
+        "link_class": "cited_external",
+        "notes": ""
+      }
+    ],
+    "added": []
+  },
+  "annotator_meta": {
+    "annotator_id": "A01",
+    "annotated_at": "2026-07-14T12:13:09.946Z",
+    "minutes_spent": 13.4,
+    "difficulty": "medium",
+    "confidence": 0.8
+  }
+}

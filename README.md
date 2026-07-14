@@ -55,6 +55,7 @@ LLM 相关环境变量：
 - `OPENAI_API_KEY`：API 密钥（必填）。
 - `BASE_URL`：OpenAI 兼容接口地址；使用 OpenAI 官方接口时可留空。
 - `PLANNER_MODEL`、`VERIFIER_MODEL`、`LINK_MODEL`、`VLM_MODEL`：各 Agent 使用的模型，默认均为 `gpt-4o-mini`。
+- `LINK_BATCH_SIZE`、`VERIFIER_BATCH_SIZE`：链接分类与核验的单次请求上限，默认分别为 8 和 12；链接很多时可进一步调小。
 
 其他可配置项见 `.env.example`，包括置信度、迭代/token 预算、PDF Agent 开关及 OpenAlex 邮箱。
 如有 IEEE Xplore Metadata API 应用密钥，可设置 `IEEE_API_KEY`；没有密钥时系统仍使用
